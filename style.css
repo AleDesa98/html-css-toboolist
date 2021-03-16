@@ -12,22 +12,26 @@ body {
 header {
     height: 80px;
     background-color: white;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-.logo {
-    margin: 15px;
+#logo {
+    height: 100%;
+    vertical-align: middle;
 }
 
-.scritta-logo {
-    display: inline-block;
+#scritta-logo {
     font-size: 30px;
+    vertical-align: middle;
 }
 
 .container {
     background-color: #F6F8F9;
 }
 
-.pagina-alta {
+#pagina-alta {
     background-color: white;
     margin: 100px 200px 5px 200px;
     padding: 10px 40px 5px 40px;
@@ -35,7 +39,7 @@ header {
     border-top-right-radius: 10px;
 }
 
-.add-task {
+#add-task {
     display: inline-block;
     margin: 5px;
     padding: 10px;
@@ -44,7 +48,7 @@ header {
     color: white;
 }
 
-.add-section {
+#add-section {
     display: inline-block;
     margin: 5px;
     padding: 10px;
@@ -53,7 +57,7 @@ header {
 
 }
 
-.pagina-bassa {
+#pagina-bassa {
     background-color: white;
     margin: 5px 200px 100px 200px;
     padding: 10px 40px 40px 40px;
@@ -75,57 +79,37 @@ header {
     margin-bottom: 20px;
 }
 
-.categoria-editorial {
+.tag{
+    display: inline-block;
+    padding: 5px;
+    border-radius: 15px;
+    color: white;
+    font-size: 12px;
+}
+
+.azzurro {
     background-color: #45ABEA;
-    display: inline-block;
-    padding: 5px;
-    border-radius: 15px;
-    color: white;
-    font-size: 12px;
 }
 
-.categoria-q1-goals {
+.viola {
     background-color: #9C72E4;
-    display: inline-block;
-    padding: 5px;
-    border-radius: 15px;
-    color: white;
-    font-size: 12px;
 }
 
-.categoria-recruiting {
+.verde {
     background-color: #64C0A9;
-    display: inline-block;
-    padding: 5px;
-    border-radius: 15px;
-    color: white;
-    font-size: 12px;
 }
 
-.categoria-mobile {
+.arancione {
     background-color: #F29E33;
-    display: inline-block;
-    padding: 5px;
-    border-radius: 15px;
-    color: white;
-    font-size: 12px;
 }
 
-.categoria-website {
+.rosa {
     background-color: #D863A1;
-    display: inline-block;
-    padding: 5px;
-    border-radius: 15px;
-    color: white;
-    font-size: 12px;
 }
 
-.categoria-sales {
+.lime {
     background-color: #B0C925;
-    display: inline-block;
-    padding: 5px;
-    border-radius: 15px;
-    color: white;
-    font-size: 12px;
 }
+
+
 
