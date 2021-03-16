@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F6F8F9;
+
+}
+
+header {
+    height: 80px;
+    background-color: white;
+}
+
+.logo {
+    margin: 15px;
+}
+
+.scritta-logo {
+    display: inline-block;
+    font-size: 30px;
+}
+
+.container {
+    background-color: #F6F8F9;
+}
+
+.pagina-alta {
+    background-color: white;
+    margin: 100px 200px 5px 200px;
+    padding: 10px 40px 10px 40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.add-task {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+    background-color: #47ADF1;
+    border-radius: 10px;
+    color: white;
+}
+
+.add-section {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid grey;
+
+}
+
+.pagina-bassa {
+    background-color: white;
+    margin: 5px 200px 100px 200px;
+    padding: 10px 40px 40px 40px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+.testo-grassetto {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.testo {
+    margin-bottom: 10px;
+}
+
+.categoria {
+    margin-bottom: 20px;
+}
